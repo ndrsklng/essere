@@ -1,0 +1,23 @@
+#designers {
+    width:990px;
+    height:1300px;
+}
+#designers div {
+    display: table-row;
+}
+#designers ul {
+    float:left;
+    width:245px;
+}
+#designers .head {
+    font-size:36px;
+    margin:0;
+}
+#designers ul {
+    margin:0 0 10px 0;
+    padding:0;
+    list-style-type: none;
+}
+#designers li {
+    margin:4px 0 0 0;
+}
