@@ -1,23 +1,38 @@
 #designers {
-    width:990px;
-    height:1300px;
+    margin: 10px 0 10px 0;
 }
-#designers div {
-    display: table-row;
-}
-#designers ul {
+
+#designers ol {
     float:left;
-    width:245px;
-}
-#designers .head {
-    font-size:36px;
-    margin:0;
-}
-#designers ul {
     margin:0 0 10px 0;
     padding:0;
     list-style-type: none;
 }
+
+@media (max-width: 320px) {
+    #designers ol {
+        width: 100%;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+    #designers ol {
+        width: 50%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    #designers ol {
+        width: 33%;
+    }
+}
+
+@media (min-width: 1025px) {
+    #designers ol {
+        width: 25%;
+    }
+}
+
 #designers li {
     margin:4px 0 0 0;
 }
