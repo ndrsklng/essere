@@ -1,42 +1,35 @@
-
-
 #designers ol {
-    float:left;
-    margin:0 0 10px 0;
     padding:0;
     list-style-type: none;
 }
 
-@media (min-width: 768px) {
-    #designers {
-        margin: 10px 0 10px 50px;
-    }
+#designers div {
+    float:left;
 }
 
 @media (max-width: 320px) {
-    #designers ol {
+    #designers div {
         width: 100%;
     }
 }
 
-@media (min-width: 321px) and (max-width: 768px) {
-    #designers ol {
+@media (min-width: 321px) and (max-width: 1024px) {
+    #designers div {
         width: 50%;
     }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
-    #designers ol {
-        width: 33%;
+@media (min-width: 321px) {
+    #designers {
+        margin: 0 0 0 40px;
     }
 }
 
 @media (min-width: 1025px) {
-    #designers ol {
+    #designers {
+        width: 996px;
+    }
+    #designers div {
         width: 25%;
     }
-}
-
-#designers li {
-    margin:4px 0 0 0;
 }
