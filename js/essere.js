@@ -64,10 +64,10 @@ $(function() {
 				if ($.inArray(discountRounded, validDiscountsArray) > -1) {
 					imageName = discountRounded + 'percent.png';
 				}
-				var imgSmallTag = "<img src='http://static-essere.appspot.com/image/sale/" + imageName + "' height='70px' width='70px' style='position: absolute; top: " + imagePos  + "px; left: 0px;'/>";
+				var imgSmallTag = "<img src='http://cdn.rawgit.com/ndrsklng/essere/master/images/" + imageName + "' height='70px' width='70px' style='position: absolute; top: " + imagePos  + "px; left: 0px;'/>";
 				$(imgSmallTag).insertAfter(elementToWriteTo);
 			} else {
-				var imgSmallTag = "<img src='http://static-essere.appspot.com/image/sale/outlet.png' height='70px' width='70px' style='position: absolute; top: " + imagePos  + "px; left: 0px;'/>";
+				var imgSmallTag = "<img src='http://cdn.rawgit.com/ndrsklng/essere/master/images/outlet.png' height='70px' width='70px' style='position: absolute; top: " + imagePos  + "px; left: 0px;'/>";
 				$(imgSmallTag).insertAfter(elementToWriteTo);
 				}
 		}
